@@ -11,116 +11,80 @@
             <div class="logo"><h1>Siem Vellekoop</h1></div>
         <nav>
             <ul id="flex-container">
-                    <li class="flex-item"><a href="over-mij.html">Over Mij</a></li>                   
-                    <li class="flex-item"><a href="portfolio.html">Portfolio</a></li>                               
-                    <li class="flex-item"><a href="laatste-nieuws.html">Laatste Nieuws</a></li>
-                    <li class="flex-item"><a href="contact.html">Contact</a></li>
+                    <li class="flex-item"><a href="over-mij.html"></a></li>                   
+                    <li class="flex-item"><a href="portfolio.html">Mijn Portfolio Website</a></li>                               
+                    <li class="flex-item"><a href="laatste-nieuws.html"></a></li>
+                    <li class="flex-item"><a href="contact.html"></a></li>
               </ul>
         </nav>    
     </header>
 
     <main>
         
-<div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')">Contact</button>
-        <button class="tablinks" onclick="openCity(event, 'Paris')">Over Mij</button>
-        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Portfolio</button>
-      </div>
-      
-      
-<div id="London" class="tabcontent">
-        <h3>Contact</h3>
-        <p>U kunt contact met mij opnemen via:</p>
-        <p> 2108798@talnet.nl</p>
-        <p>0612666336</p>
-        
+            <h2>Welkom op mijn Portfolio website</h2>
+            <p>Voor meer informatie druk op de knoppen hieronder:</p>
+            
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')">Contact</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">Portfolio</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Over mij</button>
+              <button class="tablinks" onclick="openCity(event, 'Spain')">Projecten</button>
+            </div>
+            
+            <div id="London" class="tabcontent">
+                    <h2>Contact</h2>
+                    <p>U kunt contact met mij opnemen via:</p>
+                      <p> 2108798@talnet.nl</p>
+                    <p>0612666336</p>
+                    
+            
+            <div class="LikeButton">
+                <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </div>
+                    <div class="container">
+                        <form action="contact.html">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="australia">Netherlands</option>
+                            <option value="canada">Other</option>
+                            <option value="usa">USA</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+              <h3>Portfolio</h3>
+              <p>Ik heb een VMBO-T diploma en kwam van het Veenlanden College in Mijdrecht. Hierna ben ik door gegaan naar het MBO College Amstelland. Ik heb altijd gewerkt bij een magazijn bedrijf maar ben onstslagen vanwege teveel personeel</p> 
+            </div>
+            
+            <div id="Tokyo" class="tabcontent">
+              <h3>Over Mij</h3>
+              <p>Welkom op mijn website. Mijn naam is Siem Vellekoop en ik ben geboren op 4 december 2002. 
+                  Ik zit op het Amstelland College. Op deze school doe ik de applicatie ontwikkelaar opleiding. 
+                  Buiten school bestaan mijn hobbies voornamelijk uit sporten en videos kijken. 
+                  De sport die ik beoefen is boksen, hiervoor train ik 4-5 keer in de week en als ik videos kijk gaat het vaak over games.
+                <img class="image" src="images/siem.jpg"></p>
+            </div>
 
-<div class="LikeButton">
-    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</div>
-        <div class="container">
-            <form action="contact.html">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Netherlands</option>
-                <option value="canada">Other</option>
-                <option value="usa">USA</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
-      
-<div id="Paris" class="tabcontent">
-            <h3>Contact</h3>
-            <p>U kunt contact met mij opnemen via:</p>
-              <p> 2108798@talnet.nl</p>
-            <p>0612666336</p>
-            <div class="container">
-                    <form action="contact.html">
-                  
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
-                        <option value="australia">Netherlands</option>
-                        <option value="canada">Other</option>
-                        <option value="usa">USA</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
+            <div id="Spain" class="tabcontent">
+                    <h3>Projecten</h3>
+                    <p>Ik heb nog niet veel projecten gemaakt. Deze website is mijn eerste project.</p>
                   </div>
-      
-<div id="Tokyo" class="tabcontent">
-        <h3>Contact</h3>
-        <p>U kunt contact met mij opnemen via:</p>
-          <p> 2108798@talnet.nl</p>
-        <p>0612666336</p>
-            <div class="container">
-                    <form action="contact.html">
-                  
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
-                        <option value="australia">Netherlands</option>
-                        <option value="canada">Other</option>
-                        <option value="usa">USA</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
-                  </div>
-      </div>
 
     
         
