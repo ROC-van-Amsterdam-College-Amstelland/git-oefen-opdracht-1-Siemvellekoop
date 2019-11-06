@@ -20,13 +20,117 @@
     </header>
 
     <main>
+        
+<div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Contact</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Over Mij</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Portfolio</button>
+      </div>
+      
+      
+<div id="London" class="tabcontent">
+        <h3>Contact</h3>
+        <p>U kunt contact met mij opnemen via:</p>
+        <p> 2108798@talnet.nl</p>
+        <p>0612666336</p>
+        
 
-        <h1>titel</h1>
-        <p>hallo</p>
+<div class="LikeButton">
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+        <div class="container">
+            <form action="contact.html">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Netherlands</option>
+                <option value="canada">Other</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+      
+<div id="Paris" class="tabcontent">
+            <h3>Contact</h3>
+            <p>U kunt contact met mij opnemen via:</p>
+              <p> 2108798@talnet.nl</p>
+            <p>0612666336</p>
+            <div class="container">
+                    <form action="contact.html">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Netherlands</option>
+                        <option value="canada">Other</option>
+                        <option value="usa">USA</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+      
+<div id="Tokyo" class="tabcontent">
+        <h3>Contact</h3>
+        <p>U kunt contact met mij opnemen via:</p>
+          <p> 2108798@talnet.nl</p>
+        <p>0612666336</p>
+            <div class="container">
+                    <form action="contact.html">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Netherlands</option>
+                        <option value="canada">Other</option>
+                        <option value="usa">USA</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+      </div>
+
+    
+        
+        
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <p id="date"></p>
+    </footer>
     
 </body>
 </html>
